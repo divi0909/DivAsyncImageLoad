@@ -45,17 +45,20 @@ This is a custom collection layout same as pinterest collection layout which set
 in collection view.
 
 To use this:
-```Objective-C
+
 create a instace of this class
 
+```Objective-C
     DivCollectionLayout *divyanshuCustomLayout = [DivCollectionLayout new];
-    
+```    
 assign delegate
 
+```Objective-C
     divyanshuCustomLayout.delegate = self;
-    
+ ```   
 then add this class as collection view layout
-    
+
+ ```Objective-C   
     self.clViewImages.collectionViewLayout = divyanshuCustomLayout;
 ```
 
