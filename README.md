@@ -15,17 +15,17 @@ This is a imageview category which use DivAsync Download class to download and c
 used to download images from remote url
 
 ```Objective-C
-##### -(void)setImageWithUrl:(NSURL *)url placeHolder:(UIImage *)placeHolder;
+-(void)setImageWithUrl:(NSURL *)url placeHolder:(UIImage *)placeHolder;
 
-##### -(void)setImageWithRequest:(NSURLRequest *)request placeHolder:(UIImage *)placeHolder;
+-(void)setImageWithRequest:(NSURLRequest *)request placeHolder:(UIImage *)placeHolder;
 
-##### -(void)setImageWithRequest:(NSURLRequest *)request placeHolder:(UIImage *)placeHolder successHandler:(SuccessHandler)successBlock failureHandler:(FailureHandler)failureBlock;
+-(void)setImageWithRequest:(NSURLRequest *)request placeHolder:(UIImage *)placeHolder successHandler:(SuccessHandler)successBlock failureHandler:(FailureHandler)failureBlock;
 ```
 
 If you want to cancel image download task then call this method
 
 ```Objective-C
-##### -(void)cancelImageDownloadForUrl:(NSURL *)url;
+-(void)cancelImageDownloadForUrl:(NSURL *)url;
 ```
 
 #### DivAsynDownload
@@ -34,9 +34,9 @@ This class use NSUrlSession to download remote url data and cache it with the he
 then this class hold that request in dictionary to respond later when previous request response come to avoid duplicate requests.
 
 ```Objective-C
-##### -(void)createDownloadTaskForRequest:(NSURLRequest *)request With:(CompletionHandler)completionHandler;
+-(void)createDownloadTaskForRequest:(NSURLRequest *)request With:(CompletionHandler)completionHandler;
 
-##### -(void)cancelDownloadTaskForUrl:(NSURL *)url;
+-(void)cancelDownloadTaskForUrl:(NSURL *)url;
 ```
 
 ### DivCollectionLayout
