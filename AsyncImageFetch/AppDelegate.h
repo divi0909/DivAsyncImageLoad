@@ -2,7 +2,7 @@
 //  AppDelegate.h
 //  AsyncImageFetch
 //
-//  Created by Octal on 05/06/17.
+//  Created by Divyanshu Sharma on 05/06/17.
 //  Copyright © 2017 Divyanshu Sharma. All rights reserved.
 //
 
